@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ul {
+    list-style: square;
+}
+
+.content_table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;
+}
+
+.content-table tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}

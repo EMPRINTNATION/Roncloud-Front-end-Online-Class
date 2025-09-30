@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aquamarine;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a:visited {
+    color: crimson;
+}

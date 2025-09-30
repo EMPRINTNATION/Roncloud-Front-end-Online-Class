@@ -1,0 +1,48 @@
+/* h1 {
+    border: 5px solid red;
+    margin: 20px 50px 20px 0;
+    padding: 20px 50px 20px 10px;
+}
+
+b {
+    border: 2px solid blue;
+    margin: 50px;
+    padding: 20px;
+    display: inline-block;
+} */
+
+header {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header > h1 {
+    display: inline;
+}
+
+header > nav {
+    display: inline;
+    float: right;
+    margin-top: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* float: right; */
+}
+
+header a:nth-child(1) {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0px;
+}

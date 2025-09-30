@@ -1,0 +1,20 @@
+h1, a {
+    color: green;
+    text-decoration: underline;
+}
+
+#john {
+    color: blueviolet;
+    text-align: center;
+}
+
+.mark {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}

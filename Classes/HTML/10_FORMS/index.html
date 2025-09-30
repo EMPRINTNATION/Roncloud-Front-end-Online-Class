@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="" method="post">
+        <input type="text" placeholder="Firstname" maxlength="5" required/>
+        <input type="number" placeholder="Phone Number" max="10"/>
+        <input type="email" placeholder="Email Address" required/>
+        <input type="password" placeholder="Password"/> <br/>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" /> Male
+        <input type="radio" name="gender" value="Female" checked/> Female
+        <input type="radio" name="gender" value="Others"/> Others
+        <br/>
+
+        <label>Subject:</label>
+        <input type="checkbox" name="subject" value="Maths" checked disabled/> Maths
+        <input type="checkbox" name="subject" value="English"/> English
+        <input type="checkbox" name="subject" value="Civic"/> Civic
+        <input type="checkbox" name="subject" value="Biology"/> Biology <br/>
+
+        <label>Classes:</label>
+        <select name="class">
+            <option value="JSS1">JSS1</option>
+            <option value="JSS2">JSS2</option>
+            <option value="JSS3">JSS3</option>
+            <option value="SSS1">SSS1</option>
+            <option value="SSS2">SSS2</option>
+            <option value="SSS3">SSS3</option>
+        </select> <br/>
+
+        <textarea placeholder="Address:" rows="4" cols="50" maxlength="100"></textarea> <br/>
+
+        <input type="submit" value="REGISTER NOW">
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    text-align: left;
+    border: 1px dashed;
+}
+
+.nav {
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+#footer > a {
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
