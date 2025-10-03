@@ -25,7 +25,7 @@ header {
 header > nav {
     float: right;
     margin: 15px 100px 0 0;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 header a {
@@ -46,11 +46,12 @@ header a:visited {
     background: 111;
     content: counter(name);
     background-color: gray;
-    text-decorat;
+    text-decoration-style: solid;
     border-radius: 50px;
     position: relative;
     z-index: 1;
     border-color: darkgrey;
+    border: solid 1px darkgray;
 }
 
 p {
@@ -109,3 +110,182 @@ h1 {
     text-align: center;
 }
 
+/* .chairman-image {
+    padding:  0 15px;
+    text-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    display: inline-block;
+} */
+
+.chairman-image > img {
+    text-align: center;
+    margin: 62px 0 0 115px;
+    shape-outside: margin-box;
+    width: 100%;
+    max-width: 430px;
+    object-fit: cover;
+    /* display: inline-block;
+    vertical-align: middle; */
+    float: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.747);
+    word-spacing: 0;
+    line-height: 1.5;
+    margin: 200px 100px 100px 570px;
+    overflow: auto;
+    letter-spacing: 0.7px;
+}
+
+strong {
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: bold;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.pmy {
+    font-size: 16.3px;
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: bold;
+}
+
+.chairman-image {
+    border-bottom: solid 2.8px rgba(1, 94, 1, 0.644);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-footer {
+    background-color: white;
+    padding: 20px 0px 130px 0px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.logo-footer > img {
+    height: 40px;
+    margin: 25px 15px 0% 100px;
+    display: inline-block;
+}
+
+.logo-footer > p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.685);
+    word-spacing: 0;
+    line-height: 1.5;
+    margin: 20px 30px 0px 100px;
+    overflow: auto;
+    letter-spacing: 0.7px;
+    word-break: break-word;
+    font-size: 14px;
+}
+
+.contact-footer {
+    background-color: white;
+    padding: 45px 5px 20px 0px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-left: 0px;
+}
+
+.contact-footer > h3 {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.39);
+    word-spacing: 0;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    overflow: auto;
+    letter-spacing: 0.7px;
+    word-break: break-word;
+    font-family: sans-serif;
+    font-size: 16px;
+    /* font-size: 16px; */
+}
+
+.contact-footer > a {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.685);
+    word-spacing: 0;
+    line-height: 1.5;
+    margin: 0 0 -10px 0;
+    overflow: auto;
+    letter-spacing: 0.7px;
+    word-break: break-word;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links-footer {
+    background-color: white;
+    padding: 40px 5px 20px 20px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    box-sizing: border-box;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.links-footer > h3 {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.39);
+    word-spacing: 0;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    overflow: auto;
+    letter-spacing: 0.7px;
+    word-break: break-word;
+    font-family: sans-serif;
+    font-size: 16px;
+    /* font-size: 16px; */
+}
+
+.links-footer > a {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.685);
+    word-spacing: 0;
+    line-height: 1.5;
+    margin: 0 0 -10px 0;
+    overflow: auto;
+    letter-spacing: 0.7px;
+    word-break: break-word;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
