@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INEC NIGERIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="images/logo.webp" alt="INEC logo">
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="100" viewBox="0 0 30 30"><path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M16.414,15 c0,0,3.139,3.139,3.293,3.293c0.391,0.391,0.391,1.024,0,1.414c-0.391,0.391-1.024,0.391-1.414,0C18.139,19.554,15,16.414,15,16.414 s-3.139,3.139-3.293,3.293c-0.391,0.391-1.024,0.391-1.414,0c-0.391-0.391-0.391-1.024,0-1.414C10.446,18.139,13.586,15,13.586,15 s-3.139-3.139-3.293-3.293c-0.391-0.391-0.391-1.024,0-1.414c0.391-0.391,1.024-0.391,1.414,0C11.861,10.446,15,13.586,15,13.586 s3.139-3.139,3.293-3.293c0.391-0.391,1.024-0.391,1.414,0c0.391,0.391,0.391,1.024,0,1.414C19.554,11.861,16.414,15,16.414,15z"></path></svg></a></li>
+                <li><a href="">PVC Pickup</a></li>
+                <li><a href="">Check Voter Status</a></li>
+                <li><a href="">Polling Unit Locator</a></li>
+                <li><a href="registration.html">Registration Centers</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="">PVC Pickup</a></li>
+                <li class="hideOnMobile"><a href="">Check Voter Status</a></li>
+                <li class="hideOnMobile"><a href="">Polling Unit Locator</a></li>
+                <li class="hideOnMobile"><a href="registration.html">Registration Centers</a></li>
+                <li class="hideOnMobile"><a href="">Help</a></li>
+                <li class="hideOnMobile"><a href="#"></a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="32" viewBox="0 0 32 32"><path d="M 8 5 C 6.3550302 5 5 6.3550302 5 8 C 5 9.6449698 6.3550302 11 8 11 L 24 11 C 25.64497 11 27 9.6449698 27 8 C 27 6.3550302 25.64497 5 24 5 L 8 5 z M 8 7 L 24 7 C 24.56503 7 25 7.4349698 25 8 C 25 8.5650302 24.56503 9 24 9 L 8 9 C 7.4349698 9 7 8.5650302 7 8 C 7 7.4349698 7.4349698 7 8 7 z M 8 13 C 6.3550302 13 5 14.35503 5 16 C 5 17.64497 6.3550302 19 8 19 L 24 19 C 25.64497 19 27 17.64497 27 16 C 27 14.35503 25.64497 13 24 13 L 8 13 z M 8 15 L 24 15 C 24.56503 15 25 15.43497 25 16 C 25 16.56503 24.56503 17 24 17 L 8 17 C 7.4349698 17 7 16.56503 7 16 C 7 15.43497 7.4349698 15 8 15 z M 8 21 C 6.3550302 21 5 22.35503 5 24 C 5 25.64497 6.3550302 27 8 27 L 24 27 C 25.64497 27 27 25.64497 27 24 C 27 22.35503 25.64497 21 24 21 L 8 21 z M 8 23 L 24 23 C 24.56503 23 25 23.43497 25 24 C 25 24.56503 24.56503 25 24 25 L 8 25 C 7.4349698 25 7 24.56503 7 24 C 7 23.43497 7.4349698 23 8 23 z"></path></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'none';
+            }
+        </script>
+    </header>
+
+
+    <!-- Welcome Section -->
+    <div class="background">
+        <div class="hero">
+            <img src="images/bg-2-copy.jpg" class="hero-image" alt="">
+            <img src="images/bg-1-copy.png" class="hero-image" alt="">
+        </div>
+        <div class="text">
+            <h1>
+                Welcome!
+            </h1>
+            <p>
+                This is the INEC Continuous Voter Registration Portal.
+                You can find out where to register as a New Voter. As a Registered Voter, you can Review your Voter Registration, Request to Update your Information or Transfer your Voter Registration to another Polling Unit and track the current status of your PVC application and find out your collection center.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Chairman's Message -->
+    <div class="chairman-image">
+        <img src="images/welcome2.jpg" alt="The Chairman's Image">
+        <div class="message">
+            <strong class="emp">Message from the INEC Chairman</strong>
+            <p>
+                I am delighted to announce the official commencement of the Continuous Voters Registration Exercise Nationwide. This exercise is an essential step in ensuring your active participation in the upcoming elections, and we encourage all eligible voters to take part. This phase of the CVR exercise will run from Monday August 18, 2025(Online) to Wednesday December 10, 2025. Physical/On-site registration at any of the registration centres starts on Monday August 25, 2025.
+                <br>
+                <br>
+                This exercise will allow registration of new voters at any of the designated registration points. For those already registered as voters, it will allow for update of voter information, transfer of their voter record to another location. During this period, registered voters in Anambra State, who have not collected their PVCs, can conveniently obtain them at designated collection centers.
+                <br>
+                <br>
+                To facilitate a seamless process, we have launched a feature on the CVR portal where voters can check the status of their voter cards, find the location of their designated pickup center, and for those not previously registered, locate the nearest registration centres.
+                <br>
+                <br>
+                Your PVC is your key to making your voice heard in our democratic process. We urge every eligible voter, in these states, to seize this opportunity to register, update their information, collect their PVCs and actively participate in shaping their future.
+                <br>
+                <br>
+                Thank you for your continued commitment to our democracy, and we look forward to your active engagement in the electoral process.
+                <br>
+            </p>
+            <strong class="pmy">Professor Mahmood Yakubu</strong>
+            <p>
+                Chairman, Independent National Electoral Commission.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container"></div>
+            <div class="logo-footer">
+                <img src="images/logo.webp" alt="INEC logo">
+                <p>
+                    The Independent National Electoral Commission (INEC) was established by the 1999 Constitution of the Federal Republic of Nigeria to organize elections in various political offices in the country.
+                </p>
+            </div>
+            
+            <div class="contact-footer">
+                <h3>Contact</h3>
+                <link>
+                    <a style="color: rgba(175, 6, 6, 0.801);" href="mailto:iccc@inec.gov.ng">iccc@inec.gov.ng</a> 
+                    <br>
+                    <a href="tel:0700-2255-4632">
+                        0700-2255-4632
+                    </a>
+                </link>
+            </div>
+
+            <div class="links-footer">
+                <h3>Quick Links</h3>
+                <link>
+                    <a href="https://inecnigeria.org">Visit INEC Website</a></li>
+                    <br>
+                    <a href="https://cvr.inecnigeria.org/vvs">Voter Verification Portal</a></li>
+                    <br>
+                    <a href="https://cvr.inecnigeria.org/locator">Find Registration Centre</a></li>
+                    <br>
+                    <a href="/Home/policies">Privacy Policy, Terms &amp; Conditions</a></li>
+                </link>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
